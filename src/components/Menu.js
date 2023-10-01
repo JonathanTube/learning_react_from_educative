@@ -2,8 +2,12 @@ import Home from './Home'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import ReactJSX from './FirstComponent'
 import JSX from './JSX'
-import LISTS from './Lists'
-import EVENT from './Event'
+import Lists from './Lists'
+import Event from './Event'
+import Props from './Props'
+import UseState from './UseState'
+import Callback from './Callback'
+import UseEffect from './UseEffect'
 
 export default function Menu() {
   return (
@@ -13,8 +17,12 @@ export default function Menu() {
         <Link to="/">Home</Link>&nbsp;
         <Link to="/react_jsx">First Component</Link>
         <Link to='/jsx'>JSX</Link>
-        <Link to="/lists">LISTS</Link>
-        <Link to="/event">EVENT</Link>
+        <Link to="/lists">Lists</Link>
+        <Link to="/event">Events</Link>
+        <Link to="/props">Props</Link>
+        <Link to="/use_state">useState</Link>
+        <Link to="/callback">callback</Link>
+        <Link to="/use_effect">useEffect</Link>
       </div>
 
       {/* using the inline style in JSX */}
@@ -24,8 +32,12 @@ export default function Menu() {
           <Route path='/' element={<Home />} />
           <Route path='/react_jsx' element={<ReactJSX />} />
           <Route path='/jsx' element={<JSX />} />
-          <Route path='/lists' element={<LISTS />} />
-          <Route path='/event' element={<EVENT />} />
+          <Route path='/lists' element={<Lists />} />
+          <Route path='/event' element={<Event />} />
+          <Route path='/props' element={<Props />} />
+          <Route path='/use_state' element={<UseState />} />
+          <Route path='/callback' element={<Callback />} />
+          <Route path='/use_effect' element={<UseEffect />} />
         </Routes>
       </div>
     </BrowserRouter>
