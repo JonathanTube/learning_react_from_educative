@@ -8,6 +8,8 @@ import Props from './Props'
 import UseState from './UseState'
 import Callback from './Callback'
 import UseEffect from './UseEffect'
+import CustomHook from './CustomHook'
+import Fragments from './Fragments'
 
 export default function Menu() {
   return (
@@ -23,6 +25,8 @@ export default function Menu() {
         <Link to="/use_state">useState</Link>
         <Link to="/callback">callback</Link>
         <Link to="/use_effect">useEffect</Link>
+        <Link to="/custom_hook">customHook</Link>
+        <Link to="/fragments">Fragments</Link>
       </div>
 
       {/* using the inline style in JSX */}
@@ -38,6 +42,8 @@ export default function Menu() {
           <Route path='/use_state' element={<UseState />} />
           <Route path='/callback' element={<Callback />} />
           <Route path='/use_effect' element={<UseEffect />} />
+          <Route path='/custom_hook' element={<CustomHook />} />
+          <Route path='/fragments' element={<Fragments />} />
         </Routes>
       </div>
     </BrowserRouter>
