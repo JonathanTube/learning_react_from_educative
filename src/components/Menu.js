@@ -10,6 +10,13 @@ import Callback from './Callback'
 import UseEffect from './UseEffect'
 import CustomHook from './CustomHook'
 import Fragments from './Fragments'
+import Reusable from './Reusable'
+import MyComposition from './Composition'
+import Ref from './Ref'
+import InlineHandler from './InlineHandler'
+import Asynchronous from './Asynchronous'
+import Conditional from './Conditional'
+import UseReducer from './UseReducer'
 
 export default function Menu() {
   return (
@@ -27,6 +34,13 @@ export default function Menu() {
         <Link to="/use_effect">useEffect</Link>
         <Link to="/custom_hook">customHook</Link>
         <Link to="/fragments">Fragments</Link>
+        <Link to="/resuable">resuable</Link>
+        <Link to="/composition">composition</Link>
+        <Link to="/ref">ref</Link>
+        <Link to="/inlineHandler">inlineHandler</Link>
+        <Link to="/asynchronous">asynchronous</Link>
+        <Link to="/conditional">conditional</Link>
+        <Link to="/useReducer">useReducer</Link>
       </div>
 
       {/* using the inline style in JSX */}
@@ -44,6 +58,13 @@ export default function Menu() {
           <Route path='/use_effect' element={<UseEffect />} />
           <Route path='/custom_hook' element={<CustomHook />} />
           <Route path='/fragments' element={<Fragments />} />
+          <Route path='/resuable' element={<Reusable />} />
+          <Route path="/composition" element={<MyComposition />} />
+          <Route path="/ref" element={<Ref />}></Route>
+          <Route path="/inlineHandler" element={<InlineHandler />} />
+          <Route path="/asynchronous" element={<Asynchronous />} />
+          <Route path="/conditional" element={<Conditional />} />
+          <Route path="/useReducer" element={<UseReducer />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
