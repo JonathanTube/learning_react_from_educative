@@ -9,9 +9,6 @@ const FirstFragments = () => (
 
 export default function Fragments() {
     return (
-        <>
-            <label>label</label>
-            <p>content</p>
-        </>
+        <FirstFragments />
     )
 }

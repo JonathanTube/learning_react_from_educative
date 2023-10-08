@@ -1,0 +1,25 @@
+.main {
+    background: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.styleFirst {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: aqua;
+}
+
+.styleSecond {
+    font-size: 18px;
+}
