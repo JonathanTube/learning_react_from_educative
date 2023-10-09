@@ -4,10 +4,11 @@ import './App.css';
 import FundamentalsIndex from './components/fundamentals/Index'
 import LegacyIndex from './components/legacy/Index'
 import StylingIndex from './components/styling/Index'
+import ChallengeIndex from './components/challenge/Index'
 
 // We would say this is a functional component.
 function App() {
-  const [list] = React.useState(['Fundamentals', 'Legacy', 'Styling'])
+  const [list] = React.useState(['Fundamentals', 'Legacy', 'Styling', 'Challenge'])
   const [idx, setIdx] = React.useState(0)
   const onChange = (index) => {
     setIdx(index)
@@ -23,6 +24,7 @@ function App() {
       {idx === 0 && <FundamentalsIndex />}
       {idx === 1 && <LegacyIndex />}
       {idx === 2 && <StylingIndex />}
+      {idx === 3 && <ChallengeIndex />}
     </div>
   );
 }
