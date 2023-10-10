@@ -3,20 +3,39 @@
   height: auto;
 }
 
-.Menu {
+.Module-List {
+  background-color: #000;
+  display: flex;
+  padding: 8px 5px;
+}
+
+.Module {
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.Module-Active {
+  background-color: rgb(106, 230, 62);
+  color: #000;
+}
+
+.Menu-List {
   background-color: #9bd766;
   display: flex;
   padding: 5px 5px;
 }
 
-.Item {
+.Menu {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 4px;
 }
 
-.Item-Active {
-  background-color: blue;
+.Menu-Active {
+  background-color: #000;
   color: #fff;
 }
 
