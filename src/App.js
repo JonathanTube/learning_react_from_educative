@@ -5,13 +5,13 @@ import FundamentalsIndex from './components/react/fundamentals/Index'
 import LegacyIndex from './components/react/legacy/Index'
 import StylingIndex from './components/react/styling/Index'
 import ChallengeIndex from './components/react/challenge/Index'
-// import BasicTypesIndex from './components/typescript/basicTypes/Index'
+import TypescriptIndex from './components/typescript/Index'
 
 // why do we present this code here
 // see: https://juejin.cn/post/7133968417404485663
 const modules = [
   { module: 'React', menus: ['Fundamentals', 'Legacy', 'Styling', 'Challenge'] },
-  { module: 'TypeScript', menus: ['BasicTypes'] }
+  { module: 'TypeScript', menus: ['ReactProps'] }
 ]
 
 const Menu = ({ menus, currentMenu, onMenuChange }) => {
@@ -43,9 +43,10 @@ const Module = () => {
   }
 
   React.useEffect(() => {
-    setModule(modules[0].module)
-    setMenu(modules[0].menus[0])
-    setCurrentMenus(modules[0].menus)
+    let index = 1
+    setModule(modules[index].module)
+    setMenu(modules[index].menus[0])
+    setCurrentMenus(modules[index].menus)
   }, [])
 
   return (
@@ -69,7 +70,7 @@ const Module = () => {
       {module === 'React' && menu === 'Challenge' && <ChallengeIndex />}
 
       {/* TypeScript */}
-      {/* {module === 'TypeScript' && menu === 'BasicTypes' && <BasicTypesIndex />} */}
+      {module === 'TypeScript' && menu === 'ReactProps' && <TypescriptIndex />}
     </>
   )
 }
