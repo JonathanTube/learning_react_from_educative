@@ -4,6 +4,7 @@ import ReactComponentState from "./ReactFunctionComponentState.tsx"
 import ReactUseReducer from "./ReactFunctionComponentUseReducer.tsx"
 import ReactClassComponentProps from "./ReactClassComponentProps.tsx"
 import ReactClassComponentState from "./ReactClassComponentState.tsx"
+import ReactComponentEvent from "./ReactComponentEvent.tsx"
 import Exercise from "./Exercise.tsx"
 
 export default function Menu() {
@@ -23,6 +24,10 @@ export default function Menu() {
         <Link to="reactClassComponentState">
           Creating strongly-typed class state
         </Link>
+        <Link to="reactComponentEvent">
+          Creating strongly-typed component events and event handlers
+        </Link>
+
         <Link to="/exercise">Exercise</Link>
       </div>
 
@@ -41,6 +46,10 @@ export default function Menu() {
           <Route
             path="/reactClassComponentState"
             element={<ReactClassComponentState />}
+          />
+          <Route
+            path="/reactComponentEvent"
+            element={<ReactComponentEvent />}
           />
           <Route path="/exercise" element={<Exercise />} />
         </Routes>
