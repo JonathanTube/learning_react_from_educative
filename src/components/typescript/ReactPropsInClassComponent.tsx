@@ -6,14 +6,14 @@ type Props = {
   message?: string
 }
 class Hello1 extends React.Component<Props> {
-  render(): React.ReactNode {
+  render() {
     // destructuring!!!
     const { who, message } = this.props
     return (
-      <>
+      <React.Fragment>
         <div>{who}</div>
         {message && <p>{message}</p>}
-      </>
+      </React.Fragment>
     )
   }
 }
