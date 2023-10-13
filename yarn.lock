@@ -4775,6 +4775,11 @@
     "combined-stream" "^1.0.8"
     "mime-types" "^2.1.12"
 
+"format-number@^3.0.0":
+  "integrity" "sha512-RWcbtINcRZ2DWCo4EcJgOJUYIwtsY5LKlTtL5OX1vfGsxEEK5mKaGxZC0p4Mgy63vXR12rut3lnjwCQ8YIlRMw=="
+  "resolved" "https://registry.npmjs.org/format-number/-/format-number-3.0.0.tgz"
+  "version" "3.0.0"
+
 "forwarded@0.2.0":
   "integrity" "sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow=="
   "resolved" "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz"
@@ -7995,6 +8000,13 @@
   dependencies:
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
+
+"redux@^4.2.1":
+  "integrity" "sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w=="
+  "resolved" "https://registry.npmjs.org/redux/-/redux-4.2.1.tgz"
+  "version" "4.2.1"
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 "reflect.getprototypeof@^1.0.3":
   "integrity" "sha512-TTAOZpkJ2YLxl7mVHWrNo3iDMEkYlva/kgFcXndqMgbo/AZUmmavEkdXV+hXtE4P8xdyEKRzalaFqZVuwIk/Nw=="
