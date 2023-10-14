@@ -1,4 +1,4 @@
-.Exercise_Bank_Application {
+.Exercise_Bank_Exercise_BANK_APPLICATIONlication {
   padding-top: 40px;
   background-color: greenyellow;
   min-height: 100%;
@@ -14,17 +14,17 @@
   justify-content: center;
 }
 
-.App__username {
+.Exercise_BANK_APPLICATION__username {
   color: #fff;
   font-weight: bold;
 }
-.App__userpic {
+.Exercise_BANK_APPLICATION__userpic {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   align-self: center;
 }
-.App__amount {
+.Exercise_BANK_APPLICATION__amount {
   position: relative;
   align-self: center;
   background: #fff;
@@ -36,7 +36,7 @@
   margin: 1rem 0 5rem 0;
   box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.02);
 }
-.App__amount:after {
+.Exercise_BANK_APPLICATION__amount:after {
   content: "";
   display: block;
   position: absolute;
@@ -49,11 +49,11 @@
   box-shadow: 0 5px 34px 23px rgba(0, 0, 0, 0.06);
   border-radius: 11px;
 }
-.App__amount--info {
+.Exercise_BANK_APPLICATION__amount--info {
   font-size: 0.6rem;
 }
 
-.App__buttons > button {
+.Exercise_BANK_APPLICATION__buttons > button {
   outline: 0;
   background: #fff;
   color: #fe718f;
@@ -66,7 +66,7 @@
   cursor: pointer;
 }
 
-.App__giveaway {
+.Exercise_BANK_APPLICATION__giveaway {
   font-size: 0.7rem;
   color: #fe8183;
   cursor: pointer;
