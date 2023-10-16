@@ -15,6 +15,8 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "shortid": "^2.2.16",
+    "txtgen": "^3.0.6",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "faker": "5.5.3",
     "react-test-renderer": "^18.2.0"
   }
 }
